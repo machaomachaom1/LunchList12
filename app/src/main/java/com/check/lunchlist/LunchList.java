@@ -25,6 +25,8 @@ public class LunchList extends ListActivity {
   
   @Override
   public void onCreate(Bundle savedInstanceState) {
+
+    System.out.println("KEKE");
     super.onCreate(savedInstanceState);
     setContentView(R.layout.main);
     
